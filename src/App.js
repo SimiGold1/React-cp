@@ -11,7 +11,8 @@ import FormComponent from './Form';
 
 const App=()  =>{
   return (
-    <div>
+    <>
+    <div className= "App">
       <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="#home">FILMPIRE</Navbar.Brand>
@@ -38,6 +39,7 @@ const App=()  =>{
       <CardComponent />
       <FormComponent />
 </div>
+</>
   );
 }
 export default App;
